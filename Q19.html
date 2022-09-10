@@ -1,0 +1,19 @@
+<script>
+	a=parseInt(prompt("Enter your marks in Maths"))
+	b=parseInt(prompt("Enter your marks in Hindi"))
+	c=parseInt(prompt("Enter your marks in English"))
+	d=parseInt(prompt("Enter your marks in CS"))
+	e=parseInt(prompt("Enter your marks in Web Application"))
+	sum=(a+b+c+d+e)
+	per=(sum/500)*100
+	if(per>=80)
+		document.write("Excellent!!")
+	else if(per<80 && per>=60)
+		document.write("Very Good")
+	else if(per<60 && per>=40 )
+		document.write("Good")
+	else if(per<40)
+		document.write("Work hard")
+	else
+		document.write("Invalid Input")
+</script> 

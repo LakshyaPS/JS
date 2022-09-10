@@ -1,0 +1,17 @@
+<script>
+	n=parseInt(prompt("Enter the number"))
+	sum=0
+	pro=1
+	while(n!=0)
+	{
+		quo=parseInt(n/10)
+		rem=n%10
+		sum=sum+rem
+		pro=pro*rem
+		n=quo
+	}
+	if(sum==pro)
+		document.write("It is a spy number")
+	else
+		document.write("It is not a spy number")
+</script> 

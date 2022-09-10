@@ -1,0 +1,19 @@
+ <script>
+ttl=prompt("Enter the total Amount")
+if(ttl<10000)
+	document.write("Sorry,no discount at the moment")
+else if(ttl>10000 && ttl<20000){
+	disc=ttl-(ttl*5)/100
+	document.write("Hurray!! 5% discount is given on your total amount,Current total amount:",disc)
+}
+else if(ttl>20000 && ttl<30000){
+	disc2=ttl-(ttl*10)/100
+	document.write("Hurray!! 10% discount is given on your total amount,Current total amount:",disc2)        
+}
+else if(ttl>50000){
+	disc3=ttl-(ttl*15)/100
+	document.write("Hurray!! 15% discount is given on your total amount,Current total amount:",disc3)
+}
+else
+	document.write("Invalid Amount")
+</script>

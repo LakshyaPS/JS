@@ -1,0 +1,17 @@
+<script>
+	num=prompt("Enter the number")
+	n=num
+	sum=0
+	while(num!=0)
+	{
+		rem=num%10
+		quo=parseInt(num/10)
+		sum=sum+Math.pow(rem,3)
+		num=quo
+	}
+	if(sum==n)
+		document.write(n," ","is an armstrong number")
+	else
+		document.write(n," ","is not an armstrong number")
+</script>  
+ 

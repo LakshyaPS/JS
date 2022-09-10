@@ -1,0 +1,16 @@
+<script>
+num=parseInt(prompt("Enter a number"))
+n=num
+rev=0
+while(num!=0)
+{
+	rem=num%10
+	quo=parseInt(num/10)
+	rev=rev*10+rem
+	num=quo
+}
+if(rev==n)
+	document.write("It is a palindrome number")
+else
+	document.write("It is not a palindrome number")
+</script> 
